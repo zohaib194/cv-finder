@@ -1,6 +1,6 @@
 package model
 
-type BasicsModel {
+type BasicsModel struct {
 	Name     string 		`json:"name"`
 	Label    string 		`json:"label"`
 	Image    string 		`json:"image"`

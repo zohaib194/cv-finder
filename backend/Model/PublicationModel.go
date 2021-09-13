@@ -1,6 +1,6 @@
 package model
 
-type PublicationModel {
+type PublicationModel struct {
 	Name        string `json:"name"`
 	Publisher   string `json:"publisher"`
 	ReleaseDate string `json:"releaseDate"`

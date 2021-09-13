@@ -1,6 +1,6 @@
 package model
 
-type VolunteerModel {
+type VolunteerModel struct {
 	Organization string   `json:"organization"`
 	Position     string   `json:"position"`
 	URL          string   `json:"url"`

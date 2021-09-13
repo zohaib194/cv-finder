@@ -1,6 +1,6 @@
 package model
 
-type LanguageModel {
+type LanguageModel struct {
 	Language string `json:"language"`
 	Fluency  string `json:"fluency"`
 }

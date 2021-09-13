@@ -1,6 +1,6 @@
 package model
 
-type WorkModel {
+type WorkModel struct {
 	Name       string   `json:"name"`
 	Position   string   `json:"position"`
 	URL        string   `json:"url"`

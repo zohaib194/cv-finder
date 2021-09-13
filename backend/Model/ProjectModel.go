@@ -1,6 +1,6 @@
 package model
 
-type ProjectModel {
+type ProjectModel struct {
 	Name        string   `json:"name"`
 	Description string   `json:"description"`
 	Highlights  []string `json:"highlights"`

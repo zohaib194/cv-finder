@@ -1,6 +1,6 @@
 package model
 
-type Education {
+type EducationModel struct {
 	Institution string   `json:"institution"`
 	URL         string   `json:"url"`
 	Area        string   `json:"area"`

@@ -1,6 +1,6 @@
 package model
 
-type ReferenceModel {
+type ReferenceModel struct {
 	Name      string `json:"name"`
 	Reference string `json:"reference"`
 }

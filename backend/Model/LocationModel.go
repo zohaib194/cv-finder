@@ -1,6 +1,6 @@
 package model
 
-type LocationModel {
+type LocationModel struct {
 	Address     string `json:"address"`
 	PostalCode  string `json:"postalCode"`
 	City        string `json:"city"`
