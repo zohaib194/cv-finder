@@ -2,7 +2,7 @@
   "name": "cv-finder",
   "version": "1.0.0",
   "description": "Platform to create and find CV",
-  "main": "index.js",
+  "main": "",
   "scripts": {
     "build": "cd frontend && yarn install && yarn build && cd ../backend && go run main.go"
   },
@@ -14,6 +14,9 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/zohaib194/cv-finder/issues"
+  },
+  "engines": {
+    "node": "14.17.5"
   },
   "homepage": "https://github.com/zohaib194/cv-finder#readme"
 }
