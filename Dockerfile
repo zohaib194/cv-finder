@@ -13,6 +13,6 @@ RUN go build -o /go/bin/backend
 FROM alpine:3.10
 WORKDIR app
 COPY --from=ANGULAR_BUILD /frontend/dist/webapp/* ./frontend/dist/webapp/
-COPY --from=GO_BUILD /go/bin/server ./
+COPY --from=GO_BUILD /go/bin/backend ./
 RUN ls
-CMD ./server
+CMD ./backend
