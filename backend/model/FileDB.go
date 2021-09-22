@@ -1,13 +1,11 @@
 package model
 
 import (
-	"os"
-	"log"
-	"fmt"
 	"encoding/json"
+	"log"
+	"os"
 )
 
-var Filepath string
 
 func ReadAllCVs() CVWrapperModel {
 	path, err := os.Getwd()
@@ -15,8 +13,7 @@ func ReadAllCVs() CVWrapperModel {
 		log.Println(err)
 	}
 
-	fmt.Print(path + Filepath)
-	data, err := os.ReadFile(Filepath)
+	data, err := os.ReadFile(path + "/db/cv.json");
 	if err != nil {
         panic(err)
     }
