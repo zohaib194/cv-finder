@@ -1,6 +1,5 @@
 FROM node:14.17 AS ANGULAR_BUILD
 RUN npm install -g @angular/cli@12.2.6
-RUN npm install -g yarn
 COPY frontend /frontend
 WORKDIR frontend
 RUN yarn install && yarn build
