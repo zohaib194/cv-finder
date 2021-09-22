@@ -1,0 +1,19 @@
+{
+  "name": "cv-finder",
+  "version": "1.0.0",
+  "description": "Platform to create and find CV",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd frontend && yarn install && yarn build && cd ../backend && go run main.go"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zohaib194/cv-finder.git"
+  },
+  "author": "Zohaib Butt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zohaib194/cv-finder/issues"
+  },
+  "homepage": "https://github.com/zohaib194/cv-finder#readme"
+}
